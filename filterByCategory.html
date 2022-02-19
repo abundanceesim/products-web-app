@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Filter Selection Page - Assignment03</title>  <!--Page title-->
+        <link rel="stylesheet" href="styles.css">  <!--Link to xternal stylesheet-->
+        <link rel="preconnect" href="https://fonts.gstatic.com"><!--External fonts imported from fonts.google.com-->
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Della+Respira&family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--This page displays various categories for users to choose from and this category would be used to create a filtered table for the specific category chosen by the user.-->
+        <h1>Filter Picker</h1>  <!--Main heading of the page.-->
+        <h2>Choose filter option:</h2>   <!--User has to choose filter option from table-->
+
+        <!--The form redirects the user to the displayByCategory page which displays the unfiltered table by category-->
+        <form action="http://localhost:4434/Assignment03/displayByCategory.php" method="POST">  
+            <!--The form contains various labels and input field each appropriate for the data that is to be entered.-->
+            <table> <!--Form data is displayed as a table-->
+                <tr>
+                    <td><label for="">Guitars</label></td> 
+                    <td><button name="categoryName" value="guitars">guitars</button></td>
+                </tr>
+                <tr>
+                    <td><label for="">Basses</label></td>
+                    <td><button name="categoryName" value="basses">basses</button></td>
+                </tr>
+                <tr>
+                    <td><label for="">Drums</label></td>
+                    <td><button name="categoryName" value="drums">drums</button></td>
+                </tr>
+                <tr>
+                    <!--Navigation button that redirects user to page for adding products.-->
+                    <td><button><a href="http://localhost:4434/Assignment03/addProduct.php">Add Product</a></button></td> 
+                    <!--Navigation button that returns user to main page.-->
+                    <td><button ><a href="http://localhost:4434/Assignment03/mainPage.php">Return to Main Page</a></button></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
+
+    
+   

@@ -1,0 +1,105 @@
+/*External stylesheet used throughout project.*/
+
+body {
+    text-align: center;
+    background-color: #99dbff;
+    margin: 0;
+}
+
+/*sets the border style of elements of class "addProductPage" to none.*/
+.addProductPage {
+    border-style: none;
+    
+}
+
+/*formatting for all level 1 headings*/
+h1{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0A043C;
+    color: #39A2DB;
+    font-size: 2rem;
+    padding: 20px 20px 20px 20px;
+
+}
+/*formatting for all level 2 headings*/
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #0A043C;
+
+}
+/*formatting for entire body.*/
+
+table {
+    border-collapse: collapse;
+    border: inset 2px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(243, 243, 243);
+}
+
+/*formatting for table headings and table data*/
+th, td {
+    width: 200px;
+    border: inset 2px;
+}
+
+/*formatting for table rows and data*/
+tr, td {
+    text-align: left;
+    border: inset 2px;
+    padding: 5px 5px 5px 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+/*formatting for table headings when hovered over*/
+th:hover {
+    background-color: #3282cc;
+}
+
+/*formatting for table data when hovered over*/
+td:hover {
+    background-color: rgb(197, 196, 196);
+}
+
+/*formatting for all elements of class "addProductButton"*/
+.addProductButton {
+    position:static;
+    margin-left: 60%;
+    margin-right: 5px;
+} 
+
+/*formatting for buttons and hyperlinks*/
+button, a {
+    border-style: none;
+    background-color: #39A2DB;
+    color: white;
+    width: 230px;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+/*formatting for buttons and hyperlinks when hovered over*/
+button:hover, a:hover {
+    background-color: #3282cc;
+}
+
+/*formatting for table headings*/
+th {
+    width: 200px;
+    border: inset 2px;
+    padding: 10px 10px 10px 10px;
+    background-color: #39A2DB;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+/*formatting for input fields*/
+input {
+    width: 230px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
