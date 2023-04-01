@@ -1,2 +1,2 @@
 # Products-Web-App
-Products web application where users can retrieve and modify product records of their choice from a MySQL database.
+Products web application where users can retrieve and modify their products inventory from the backend.
