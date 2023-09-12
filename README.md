@@ -1,2 +1,2 @@
 # Products-Web-App
-Products web application where users can retrieve and modify their products inventory from the backend.
+Full-stack inventory web application for database containing data related to musical instruments. Made with PHP, CSS, MySQL and Apache.
